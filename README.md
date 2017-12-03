@@ -6,13 +6,14 @@ Small python symulation with jupyter notebooks documentation
 
 - install anaconda:
   [download latest verion installer](https://www.anaconda.com/download)
-  in case of linux cd into folder with installation and run it with bash prefix,
-  e.g.
+
+  1) run installer with bash prefix e.g.
   
   ```bash
      wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
      bash Anaconda3-5.0.1-Linux-x86_64.sh
   ```
+  2) Windows and OsX have available installers
 - clone repo in approprate folder
   ```bash
      git clone https://github.com/stanmark/Example_MCMc_2d_Ising_model
