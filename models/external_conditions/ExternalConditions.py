@@ -1,6 +1,11 @@
+"""
+Class for holding external parameters
+"""
+
+
 class ExternalConditions:
     """
-        Class for holding external parameters
+    Class for holding external parameters
     """
 
     def __init__(self, T=1.0, H=0.0)-> None:
@@ -9,8 +14,8 @@ class ExternalConditions:
             T - temperature of the system (default value 0.0)
             H - magnetig field (default value 0.0)
         """
-        self.T=float(T)
-        self.H=float(H)
+        self.T = float(T)
+        self.H = float(H)
         return None
 
 
@@ -18,7 +23,7 @@ class ExternalConditions:
         """
         T setter
         """
-        self.T=float(T)
+        self.T = float(T)
 
 
 
@@ -26,7 +31,7 @@ class ExternalConditions:
         """
         H setter
         """
-        self.H=float(H)
+        self.H = float(H)
 
 
     def getT(self)-> float:
