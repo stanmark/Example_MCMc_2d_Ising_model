@@ -1,0 +1,12 @@
+version: '3'
+services:
+    app_dev:
+        image: psolutions/debian-python-development
+        container_name: python_dev
+        hostname: python_dev
+        volumes:
+            - .:/opt/app
+        stdin_open: true
+        tty: true
+        ports:
+            - 8888:8888

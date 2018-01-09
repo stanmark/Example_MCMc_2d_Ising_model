@@ -20,3 +20,7 @@ Small python symulation with jupyter notebooks documentation
      cd Example_MCMc_2d_Ising_model
      jupyter notebook
   ```
+
+docker-compose up -d
+  jupyter notebook --ip=0.0.0.0
+
