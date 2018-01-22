@@ -1,0 +1,6 @@
+{
+  "tests/external_conditions/TestExternalConditions.py": true,
+  "tests/lattices/test_abstract_lattice.py::TestAbstractLattice": true,
+  "tests/lattices/test_abstract_lattice.py::TestAbstractLattice::test_constructor": true,
+  "tests/lattices/test_abstract_lattice.py::test_constructor": true
+}

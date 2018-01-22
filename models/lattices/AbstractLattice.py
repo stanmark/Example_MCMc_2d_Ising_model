@@ -27,7 +27,7 @@ class AbstractLattice(object):
         self.lattice = lattice
         if self.lattice is None:
             self.initializeLattice()
-        if lattice is not isinstance(self.lattice, array):
+        if not type(self.lattice) == type(array):
             raise TypeError('lattice should be numpy array')
         return None
 
